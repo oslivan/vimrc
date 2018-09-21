@@ -34,6 +34,7 @@ lf/lp =>  log.Println("${1}")
 ir    =>  if err != nil
 el    =>  else {}
 ife   =>  if .. else
+om    => if ${1:value}, ok := ${2:map}[${3:key}]; ok == true
 ```
 
 + [Ruby snippets documents](https://github.com/honza/vim-snippets/blob/master/snippets/ruby.snippets)
