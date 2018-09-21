@@ -2,12 +2,12 @@
 + [Go snippets documents](https://github.com/honza/vim-snippets/blob/master/snippets/go.snippets)
 ```
 v/vr/var/vars => [define variable]
-cl    => struct
-gg    => struct init
-in    => interface{}
-inf   => interface {func()}
-c/co  => const
-ch    => channel
+cl    =>  struct
+gg    =>  struct init
+in    =>  interface{}
+inf   =>  interface {func()}
+c/co  =>  const
+ch    =>  channel
 ap    =>  append()
 forr  =>  for i, val := range $collection {}
 fori  =>  for i := 1; i < 10; i++ {}
@@ -17,6 +17,7 @@ br    =>  break
 df    =>  defer
 pr    =>  fmt.Printf("%s", xx)
 pl    =>  fmt.Println("")
+sp    =>  fmt.Sprintf("%s", xx)
 main  =>  main() 方法
 fun   =>  func function() {}
 fum   =>  func (r re)function() {}
@@ -34,7 +35,7 @@ lf/lp =>  log.Println("${1}")
 ir    =>  if err != nil
 el    =>  else {}
 ife   =>  if .. else
-om    => if ${1:value}, ok := ${2:map}[${3:key}]; ok == true
+om    =>  if ${1:value}, ok := ${2:map}[${3:key}]; ok == true
 ```
 
 + [Ruby snippets documents](https://github.com/honza/vim-snippets/blob/master/snippets/ruby.snippets)
